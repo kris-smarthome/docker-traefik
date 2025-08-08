@@ -12,5 +12,4 @@ docker compose up -d
 ```
 
 > [!NOTE]
-> Create the traefik network before deploying this stack: `docker network create -d bridge traefik`
-> Create a Cloudflare token, copy the value into .env.
+> Create a Cloudflare token, copy the value into .env. Also, create the traefik network before deploying this stack: `docker network create -d bridge traefik`. 
